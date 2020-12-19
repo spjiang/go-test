@@ -1,6 +1,6 @@
 package subscribe
 
-import "github.com/spjiang/go-test/rabbitmq/entity"
+import  "github.com/spjiang/go-test/rabbitmq/subscribe/motor_vehicle"
 
 type Subscribe interface {
 	Handle()
@@ -11,7 +11,7 @@ func SubscribeHandle() {
 }
 
 func MotorVehicle() {
-	m := &entity.MotorVehicle{
+	m := &subscribe_motor_vehicle.MotorVehicle{
 		ExchangeName: "motor.vehicle",
 		ExchangeType: "topic",
 		QueueName:    "motor.vehicle",

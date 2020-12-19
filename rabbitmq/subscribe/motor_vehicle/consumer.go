@@ -1,4 +1,4 @@
-package entity
+package subscribe_motor_vehicle
 
 import (
 	"fmt"
