@@ -1,0 +1,17 @@
+# Logger.
+[logger]
+    Path        = "/tmp/log/gf-app"
+    Level       = "all"
+    Stdout      = true
+[rabbitmq]
+    host = "127.0.0.1"
+    port = 5672
+    username = "admin"
+    password = "admin123"
+    vhost = "test"
+[s3]
+    S3_ENDPOINT="http://192.168.100.240:9000"
+    S3_KEY="IP5DCF3WQ72XHU01UUFM"
+    S3_SECRET="SBRUcPoQlDqRxCaxzT7SWDgSMEkDMQGhkFbXvIy5"
+    S3_BUCKET="smartcity"
+    S3_REGION="us-east-1"
