@@ -1,0 +1,146 @@
+# github.com/BurntSushi/toml v0.3.1
+github.com/BurntSushi/toml
+# github.com/clbanning/mxj v1.8.5-0.20200714211355-ff02cfb8ea28
+github.com/clbanning/mxj
+# github.com/fsnotify/fsnotify v1.4.9
+github.com/fsnotify/fsnotify
+# github.com/go-resty/resty/v2 v2.4.0
+## explicit
+github.com/go-resty/resty/v2
+# github.com/go-sql-driver/mysql v1.5.0
+github.com/go-sql-driver/mysql
+# github.com/gogf/gf v1.14.6
+## explicit
+github.com/gogf/gf
+github.com/gogf/gf/container/garray
+github.com/gogf/gf/container/glist
+github.com/gogf/gf/container/gmap
+github.com/gogf/gf/container/gpool
+github.com/gogf/gf/container/gqueue
+github.com/gogf/gf/container/gset
+github.com/gogf/gf/container/gtree
+github.com/gogf/gf/container/gtype
+github.com/gogf/gf/container/gvar
+github.com/gogf/gf/crypto/gaes
+github.com/gogf/gf/crypto/gmd5
+github.com/gogf/gf/database/gdb
+github.com/gogf/gf/database/gredis
+github.com/gogf/gf/debug/gdebug
+github.com/gogf/gf/encoding/gbase64
+github.com/gogf/gf/encoding/gbinary
+github.com/gogf/gf/encoding/gcharset
+github.com/gogf/gf/encoding/gcompress
+github.com/gogf/gf/encoding/ghash
+github.com/gogf/gf/encoding/ghtml
+github.com/gogf/gf/encoding/gini
+github.com/gogf/gf/encoding/gjson
+github.com/gogf/gf/encoding/gparser
+github.com/gogf/gf/encoding/gtoml
+github.com/gogf/gf/encoding/gurl
+github.com/gogf/gf/encoding/gxml
+github.com/gogf/gf/encoding/gyaml
+github.com/gogf/gf/errors/gerror
+github.com/gogf/gf/frame/g
+github.com/gogf/gf/frame/gins
+github.com/gogf/gf/i18n/gi18n
+github.com/gogf/gf/internal/empty
+github.com/gogf/gf/internal/fileinfo
+github.com/gogf/gf/internal/intlog
+github.com/gogf/gf/internal/json
+github.com/gogf/gf/internal/rwmutex
+github.com/gogf/gf/internal/structs
+github.com/gogf/gf/internal/utils
+github.com/gogf/gf/net/ghttp
+github.com/gogf/gf/net/gipv4
+github.com/gogf/gf/net/gipv6
+github.com/gogf/gf/net/gtcp
+github.com/gogf/gf/net/gudp
+github.com/gogf/gf/os/gcache
+github.com/gogf/gf/os/gcfg
+github.com/gogf/gf/os/gcmd
+github.com/gogf/gf/os/genv
+github.com/gogf/gf/os/gfile
+github.com/gogf/gf/os/gfpool
+github.com/gogf/gf/os/gfsnotify
+github.com/gogf/gf/os/glog
+github.com/gogf/gf/os/gmlock
+github.com/gogf/gf/os/gmutex
+github.com/gogf/gf/os/gproc
+github.com/gogf/gf/os/gres
+github.com/gogf/gf/os/grpool
+github.com/gogf/gf/os/gsession
+github.com/gogf/gf/os/gspath
+github.com/gogf/gf/os/gtime
+github.com/gogf/gf/os/gtimer
+github.com/gogf/gf/os/gview
+github.com/gogf/gf/text/gregex
+github.com/gogf/gf/text/gstr
+github.com/gogf/gf/util/gconv
+github.com/gogf/gf/util/gmode
+github.com/gogf/gf/util/gpage
+github.com/gogf/gf/util/grand
+github.com/gogf/gf/util/guid
+github.com/gogf/gf/util/gutil
+github.com/gogf/gf/util/gvalid
+# github.com/goinggo/mapstructure v0.0.0-20140717182941-194205d9b4a9
+## explicit
+github.com/goinggo/mapstructure
+# github.com/gomodule/redigo v2.0.0+incompatible
+github.com/gomodule/redigo/internal
+github.com/gomodule/redigo/redis
+# github.com/gorilla/websocket v1.4.1
+github.com/gorilla/websocket
+# github.com/grokify/html-strip-tags-go v0.0.0-20190921062105-daaa06bf1aaf
+github.com/grokify/html-strip-tags-go
+# github.com/mattn/go-runewidth v0.0.9
+github.com/mattn/go-runewidth
+# github.com/olekukonko/tablewriter v0.0.1
+github.com/olekukonko/tablewriter
+# github.com/pkg/errors v0.9.1
+## explicit
+# github.com/satori/go.uuid v1.2.0
+## explicit
+github.com/satori/go.uuid
+# github.com/shopspring/decimal v1.2.0
+## explicit
+github.com/shopspring/decimal
+# github.com/streadway/amqp v1.0.0
+## explicit
+github.com/streadway/amqp
+# go.uber.org/atomic v1.6.0
+go.uber.org/atomic
+# go.uber.org/multierr v1.5.0
+go.uber.org/multierr
+# go.uber.org/zap v1.16.0
+## explicit
+go.uber.org/zap
+go.uber.org/zap/buffer
+go.uber.org/zap/internal/bufferpool
+go.uber.org/zap/internal/color
+go.uber.org/zap/internal/exit
+go.uber.org/zap/zapcore
+# golang.org/x/net v0.0.0-20201224014010-6772e930b67b
+golang.org/x/net/internal/socks
+golang.org/x/net/proxy
+golang.org/x/net/publicsuffix
+# golang.org/x/sys v0.0.0-20201119102817-f84b799fce68
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+# golang.org/x/text v0.3.3
+golang.org/x/text/encoding
+golang.org/x/text/encoding/charmap
+golang.org/x/text/encoding/ianaindex
+golang.org/x/text/encoding/internal
+golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/encoding/japanese
+golang.org/x/text/encoding/korean
+golang.org/x/text/encoding/simplifiedchinese
+golang.org/x/text/encoding/traditionalchinese
+golang.org/x/text/encoding/unicode
+golang.org/x/text/internal/utf8internal
+golang.org/x/text/runes
+golang.org/x/text/transform
+# gopkg.in/yaml.v2 v2.2.8
+## explicit
+# gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+gopkg.in/yaml.v3

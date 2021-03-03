@@ -60,8 +60,6 @@ func TestStructToSlice(t *testing.T) {
 	fmt.Println("打印出来为切片：", qie)
 }
 
-
-
 func TestSlice(t *testing.T) {
 	test := &Test{}
 	p := []string{"AAA", "BBB"}
@@ -77,7 +75,6 @@ func TestSlice(t *testing.T) {
 	//b,_:=json.Marshal(s)
 	//fmt.Println(string(b))
 }
-
 
 func TestStructInterface(t *testing.T) {
 	type BigDataAPIResponse struct {
@@ -106,4 +103,37 @@ func TestStructInterface(t *testing.T) {
 	_ = mapstructure.Decode(r.Data, d)
 	fmt.Println(d.List[0].Name)
 }
+
+//函数片段
+func ClosureAdd(base int) func(int) int {
+	fmt.Printf("%p\n", &base) //打印变量地址，可以看出来 内部函数时对外部传入参数的引用
+	f := func(i int) int {
+		fmt.Printf("%p\n", &base)
+		base += i
+		return base
+	}
+	return f
+}
+
+// TestClosure 测试闭包
+func TestClosure(t *testing.T) {
+
+}
+
+type DataList struct {
+	Name string
+}
+
+func testDataList(dataList *[]DataList) {
+	fmt.Println(dataList)
+}
+// TestClosure 测试闭包
+func TestNull(t *testing.T) {
+	list := []DataList{}
+	testDataList(&list)
+	fmt.Println(list)
+	j,_ := json.Marshal(list)
+	fmt.Println("++",string(j))
+}
+
 
