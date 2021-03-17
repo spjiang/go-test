@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"log"
 	"math/rand"
+	"net/http"
+	"net/rpc"
 	"sync"
 	"time"
 )
@@ -64,6 +66,15 @@ func main() {
 	for i := 0; i < raftCount; i++ {
 		// 创建3个raft节点
 		Make(i)
+	}
+
+	// 加入服务端监听
+	rpc.Register(new(Raft))
+	rpc.HandleHTTP()
+	// 监听服务
+	err := http.ListenAndServe(":8080", nil)
+	if err != nil {
+		log.Fatal(err)
 	}
 	// 不能让main结束
 	for {
@@ -233,7 +244,23 @@ func (rf *Raft) sendAppendEntriesImpl() {
 		for i := 0; i < raftCount; i++ {
 			if i != rf.me {
 				go func() {
-					rf.heartbeatRe <- true
+					// rf.heartbeatRe <- true
+					// 修改为分布式
+					// 这里实际上相当于客户端
+					rp, err := rpc.DialHTTP("tcp", "127.0.0.1:8080")
+					if err != nil {
+						log.Fatal(err)
+					}
+					// 接收服务器返回的信息
+					// 接收服务端返回的变量
+					var ok = false
+					rp.Call("Raft.Communication", Param{Msg: "hello"}, &ok)
+					if err != nil {
+						log.Fatal(err)
+					}
+					if ok {
+						rf.heartbeatRe <- true
+					}
 				}()
 			}
 		}
@@ -261,4 +288,17 @@ func randRange(min, max int64) int64 {
 // 获取当前时间，发送最后一条数据的时间
 func millisecond() int64 {
 	return time.Now().UnixNano() / int64(time.Millisecond)
+}
+
+// 首字母大写，RPC规范
+// 分布式通信
+type Param struct {
+	Msg string
+}
+
+// 通信方法
+func (r *Raft) Communication(p Param, a *bool) error {
+	fmt.Println(p.Msg)
+	*a = true
+	return nil
 }
