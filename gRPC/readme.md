@@ -1,7 +1,9 @@
 #PROTOBUF
 ###命令
+
 ```protobuf
-protoc --proto_path=. --go_out=.  user.proto
+protoc --go_out=. user.proto
+protoc --go-grpc_out=. user.proto
 ```
 
 > 1. proto_path：当前proto文件目录

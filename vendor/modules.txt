@@ -85,6 +85,8 @@ github.com/gogf/gf/util/gvalid
 # github.com/goinggo/mapstructure v0.0.0-20140717182941-194205d9b4a9
 ## explicit
 github.com/goinggo/mapstructure
+# github.com/golang/protobuf v1.4.3
+## explicit
 # github.com/gomodule/redigo v2.0.0+incompatible
 github.com/gomodule/redigo/internal
 github.com/gomodule/redigo/redis
@@ -140,6 +142,8 @@ golang.org/x/text/encoding/unicode
 golang.org/x/text/internal/utf8internal
 golang.org/x/text/runes
 golang.org/x/text/transform
+# google.golang.org/protobuf v1.25.0
+## explicit
 # gopkg.in/yaml.v2 v2.2.8
 ## explicit
 # gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
