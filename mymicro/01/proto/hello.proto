@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+// 指定包名
+option go_package = ".;proto";   //新增该行
+
+// 结构体
+message InfoRequest{
+  string name = 1;
+}
+
+message InfoResponse{
+  string msg = 2;
+}
+
+// 接口
+service Hello{
+  rpc Info (InfoRequest) returns (InfoResponse){}
+}

@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apisix-dashboard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/etcd" vcs="Git" />
   </component>
 </project>

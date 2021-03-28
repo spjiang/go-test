@@ -1,0 +1,63 @@
+syntax = "proto3";
+option go_package = ".;pb";   //新增该行
+// 定义需要的结构体
+message User{
+  int32 id = 1;
+  string name = 2;
+  string address = 3;
+  string phone = 4;
+}
+// 增
+message InsertUserReq{
+  int32 id = 1;
+  string name = 2;
+  string address = 3;
+  string phone = 4;
+}
+
+message InsertUserRep{
+  int32 id = 1;
+  string name = 2;
+  string address = 3;
+  string phone = 4;
+}
+// 删
+message DeleteUserReq{
+  int32 id = 1;
+}
+
+message DeleteUserRep{
+}
+
+// 改
+message ModifyUserReq{
+  int32 id = 1;
+  string name = 2;
+  string address = 3;
+  string phone = 4;
+}
+
+message ModifyUserRep{
+}
+
+
+// 查询
+message SelectUserReq{
+  int32 id = 1;
+}
+
+message SelectUserRep{
+  User users = 1;
+}
+
+
+service UserService{
+  // 增
+  rpc InsertUser(InsertUserReq) returns(InsertUserRep){}
+  // 删
+  rpc DeleteUser(DeleteUserReq) returns(DeleteUserRep){}
+  // 改
+  rpc ModifyUser(ModifyUserReq) returns(ModifyUserRep){}
+  // 查
+  rpc SelectUser(SelectUserReq) returns(SelectUserRep){}
+}
