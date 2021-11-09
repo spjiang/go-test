@@ -1,25 +1,21 @@
 # github.com/BurntSushi/toml v0.3.1
 github.com/BurntSushi/toml
+# github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575
+## explicit
+github.com/cihub/seelog
+github.com/cihub/seelog/archive
+github.com/cihub/seelog/archive/gzip
+github.com/cihub/seelog/archive/tar
+github.com/cihub/seelog/archive/zip
 # github.com/clbanning/mxj v1.8.5-0.20200714211355-ff02cfb8ea28
 github.com/clbanning/mxj
-# github.com/cpuguy83/go-md2man/v2 v2.0.0
-## explicit
-# github.com/evanphx/json-patch/v5 v5.1.0
-## explicit
 # github.com/fsnotify/fsnotify v1.4.9
 github.com/fsnotify/fsnotify
-# github.com/getkin/kin-openapi v0.33.0
-## explicit
-# github.com/gin-contrib/pprof v1.3.0
-## explicit
-# github.com/gin-contrib/sessions v0.0.3
-## explicit
-# github.com/gin-contrib/static v0.0.0-20200916080430-d45d9a37d28e
-## explicit
 # github.com/go-resty/resty/v2 v2.4.0
 ## explicit
 github.com/go-resty/resty/v2
-# github.com/go-sql-driver/mysql v1.5.0
+# github.com/go-sql-driver/mysql v1.6.0
+## explicit
 github.com/go-sql-driver/mysql
 # github.com/gogf/gf v1.14.6
 ## explicit
@@ -100,56 +96,31 @@ github.com/goinggo/mapstructure
 # github.com/gomodule/redigo v2.0.0+incompatible
 github.com/gomodule/redigo/internal
 github.com/gomodule/redigo/redis
-# github.com/google/uuid v1.1.2
-## explicit
 # github.com/gorilla/websocket v1.4.2
+## explicit
 github.com/gorilla/websocket
 # github.com/grokify/html-strip-tags-go v0.0.0-20190921062105-daaa06bf1aaf
 github.com/grokify/html-strip-tags-go
-# github.com/inconshreveable/mousetrap v1.0.0
+# github.com/jmoiron/sqlx v1.3.4
 ## explicit
+github.com/jmoiron/sqlx
+github.com/jmoiron/sqlx/reflectx
 # github.com/mattn/go-runewidth v0.0.9
 github.com/mattn/go-runewidth
-# github.com/mitchellh/go-homedir v1.1.0
-## explicit
 # github.com/olekukonko/tablewriter v0.0.1
 github.com/olekukonko/tablewriter
 # github.com/pkg/errors v0.9.1
 ## explicit
-# github.com/prometheus/client_golang v1.8.0
-## explicit
 # github.com/satori/go.uuid v1.2.0
 ## explicit
 github.com/satori/go.uuid
-# github.com/shiningrush/droplet v0.2.6-0.20210127040147-53817015cd1b
-## explicit
-# github.com/shiningrush/droplet/wrapper/gin v0.2.1
-## explicit
 # github.com/shopspring/decimal v1.2.0
 ## explicit
 github.com/shopspring/decimal
-# github.com/sirupsen/logrus v1.7.0
-## explicit
-# github.com/sony/sonyflake v1.0.0
-## explicit
-# github.com/spf13/cobra v0.0.3
-## explicit
-# github.com/spf13/pflag v1.0.5
-## explicit
-# github.com/spf13/viper v1.7.0
-## explicit
 # github.com/streadway/amqp v1.0.0
 ## explicit
 github.com/streadway/amqp
-# github.com/tidwall/gjson v1.6.7
-## explicit
-# github.com/tmc/grpc-websocket-proxy v0.0.0-20200427203606-3cfed13b9966
-## explicit
-# github.com/xeipuuv/gojsonschema v1.2.0
-## explicit
-# github.com/yuin/gopher-lua v0.0.0-20200816102855-ee81675732da
-## explicit
-# go.etcd.io/bbolt v1.3.5
+# github.com/stretchr/testify v1.5.1
 ## explicit
 # go.uber.org/atomic v1.6.0
 go.uber.org/atomic
@@ -184,6 +155,10 @@ golang.org/x/text/encoding/unicode
 golang.org/x/text/internal/utf8internal
 golang.org/x/text/runes
 golang.org/x/text/transform
+# golang.org/x/tools v0.0.0-20200103221440-774c71fcf114
+## explicit
+# gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15
+## explicit
 # gopkg.in/yaml.v2 v2.4.0
 ## explicit
 # gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
