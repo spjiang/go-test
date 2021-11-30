@@ -2,6 +2,8 @@ package example
 
 import (
 	"fmt"
+	"runtime"
+	"sync"
 	"testing"
 )
 
@@ -37,13 +39,38 @@ func TestBlock03(t *testing.T) {
 
 	go func() {
 		select {
-		case <-chHusband:
+		case <-chHusband: // 先读chHusband在写chWife
 			chWife <- 888
 		}
 	}()
 
 	select {
-	case <-chWife:
+	case <-chWife: // 先读chWife在写chHusband
 		chHusband <- 888
+	}
+}
+
+// 第四种情形：读写锁相互阻塞，形成隐形死锁
+//这两条协程，如果第一条协程先抢到了只写锁，另一条协程就不能抢只读锁了，那么因为另外一条协程没有读，所以第一条协程就写不进。
+//如果第二条协程先抢到了只读锁，另一条协程就不能抢只写锁了，那么因为另外一条协程没有写，所以第二条协程就读不到。
+func TestBlock04(t *testing.T) {
+	var rmw09 sync.RWMutex
+	ch := make(chan int, 0)
+
+	go func() {
+		rmw09.Lock()
+		ch <- 123
+		rmw09.Unlock()
+	}()
+
+	go func() {
+		rmw09.RLock()
+		x := <-ch
+		fmt.Println("读到", x)
+		rmw09.RUnlock()
+	}()
+
+	for {
+		runtime.GC()
 	}
 }

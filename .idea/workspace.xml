@@ -2,87 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dd7240e-cacb-4897-ad3b-881031d2fc51" name="Default Changelist" comment="go grpc protobuf&#10;server.go&#10;client.go">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/context/08/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dystruct/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/client/client1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/client/client2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/client/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/server/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fileDownload/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goserial/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goserial/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goserial/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/example/block_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/example/cpu.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/example/cpu_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/example/mutex/mutex.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/example/mutex_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/example/myslice/index.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/example/slice_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myassertion/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mychannel/01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mychannel/02/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mychannel/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydefer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydefer2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myinterface/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymicrosystem/src/share/user_srv/entity/User.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymicrosystem/src/share/user_srv/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymysql/insert/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymysql/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mystring/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mytime/01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mytime/02/MAIN.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mytime/02/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mytime/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sch/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seelog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serial2tcp/mybuffer/mybuffer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string_test/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string_test/util/util.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tarm_serial/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tarm_serial/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tarm_serial/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video_auth/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video_auth/util/util.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/v1.0.1.3-v1.0.1.4.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/Factory/factory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/Factory/factory_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/config/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/example/goruntine_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/example/mygfgroutine01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/example/mygroutine/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/example/mygroutine02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/example/myrabbitmq/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/example/mystruct/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/example/mysync/index.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/example/mysync01/index.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/example/sita/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/example/string_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gotest/example/sync_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mychannel/03/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mygc/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mygc/mygc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylog/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/test/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apisix-dashboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/facade/facade.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms/01/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms/02/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms/03/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymicrosystem/proto/user.proto" beforeDir="false" afterPath="$PROJECT_DIR$/mymicrosystem/proto/user.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parking/beiqu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parking/beiqu2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parking/index.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dev_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/image/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/init_func/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/init_func/test/test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/parkingjson/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/string/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/time_test/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/time_test/parse_time/time.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/AUTHORS" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/AUTHORS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/auth.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/collations.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/collations.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/connection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/dsn.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/dsn.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/fields.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/fields.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/infile.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/infile.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime_go113.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime_go113.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime_legacy.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime_legacy.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/packets.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/packets.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/statement.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/statement.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/example/block_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gotest/example/block_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/example/cpu_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gotest/example/cpu_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/example/mutex_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gotest/example/mutex_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/example/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gotest/example/slice_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/gotest/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/gotest/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/archive/archive.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/archive/gzip/gzip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/archive/tar/tar.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/archive/zip/zip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/behavior_adaptivelogger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/behavior_asynclogger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/behavior_asynclooplogger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/behavior_asynctimerlogger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/behavior_synclogger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/cfg_config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/cfg_errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/cfg_logconfig.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/cfg_parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/common_closer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/common_constraints.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/common_context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/common_exception.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/common_flusher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/common_loglevel.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/dispatch_custom.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/dispatch_dispatcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/dispatch_filterdispatcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/dispatch_splitdispatcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/format.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/internals_baseerror.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/internals_fsutils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/internals_xmlnode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/writers_bufferedwriter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/writers_connwriter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/writers_consolewriter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/writers_filewriter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/writers_formattedwriter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/writers_rollingfilewriter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/cihub/seelog/writers_smtpwriter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/goinggo/mapstructure/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/goinggo/mapstructure/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/goinggo/mapstructure/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/goinggo/mapstructure/mapstructure.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +127,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gotest/example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/design/Factory" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
@@ -150,34 +141,38 @@
       <recent name="$PROJECT_DIR$/check_parking_data/issue/test02" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/design/Factory" />
       <recent name="$PROJECT_DIR$/gotest/example" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/check_parking_data/issue" />
       <recent name="$PROJECT_DIR$/file/client" />
-      <recent name="$PROJECT_DIR$/video_auth" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestBlock02 in gotest/example">
-    <configuration name="TestBlock01 in gotest/example" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestNewRestaurant in github.com/spjiang/go-test/design/Factory">
+    <configuration name="go build github.com/spjiang/go-test/mychannel/03" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-test" />
-      <working_directory value="$PROJECT_DIR$/gotest/example" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gotest/example" />
+      <filePath value="$PROJECT_DIR$/mychannel/03/main.go" />
+      <package value="github.com/spjiang/go-test/mychannel/03" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestBlock01\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBlock02 in gotest/example" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/spjiang/go-test/mylog" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-test" />
-      <working_directory value="$PROJECT_DIR$/gotest/example" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="gotest/example" />
+      <filePath value="$PROJECT_DIR$/mylog/main.go" />
+      <package value="github.com/spjiang/go-test/mylog" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestBlock02\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/mylog/main.go" />
+      <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCpu01 in gotest/example" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -191,34 +186,23 @@
       <pattern value="^\QTestCpu01\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMutex_Add in gotest/example" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNewRestaurant in github.com/spjiang/go-test/design/Factory" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-test" />
-      <working_directory value="$PROJECT_DIR$/gotest/example" />
+      <working_directory value="$PROJECT_DIR$/design/Factory" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="gotest/example" />
+      <package value="github.com/spjiang/go-test/design/Factory" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestMutex_Add\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSlice in gotest/example" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-test" />
-      <working_directory value="$PROJECT_DIR$/gotest/example" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="gotest/example" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSlice\E$" />
+      <pattern value="^\QTestNewRestaurant\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestBlock02 in gotest/example" />
-        <item itemvalue="Go Test.TestBlock01 in gotest/example" />
-        <item itemvalue="Go Test.TestSlice in gotest/example" />
-        <item itemvalue="Go Test.TestMutex_Add in gotest/example" />
+        <item itemvalue="Go Test.TestNewRestaurant in github.com/spjiang/go-test/design/Factory" />
+        <item itemvalue="Go Build.go build github.com/spjiang/go-test/mylog" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build github.com/spjiang/go-test/mychannel/03" />
         <item itemvalue="Go Test.TestCpu01 in gotest/example" />
       </list>
     </recent_temporary>
@@ -262,82 +246,114 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="469" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1635583536399" />
-    <state x="424" y="25" key="CommitChangelistDialog2" timestamp="1628841308584">
-      <screen x="0" y="25" width="1440" height="819" />
-    </state>
-    <state x="424" y="25" key="CommitChangelistDialog2/0.25.1440.819/1440.-238.1920.1055@0.25.1440.819" timestamp="1628841308584" />
     <state width="437" height="466" key="DebuggerActiveHint" timestamp="1634293088180">
       <screen x="1440" y="-263" width="1920" height="1080" />
     </state>
     <state width="437" height="466" key="DebuggerActiveHint/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1634293088180" />
-    <state width="1398" height="429" key="GridCell.Tab.0.bottom" timestamp="1636426883573">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state width="1398" height="376" key="GridCell.Tab.0.bottom" timestamp="1638262763910">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1634624081913" />
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1634545990453" />
+    <state width="1398" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1638262763910" />
+    <state width="1878" height="464" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1638154952135" />
     <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1635565916162" />
-    <state width="1398" height="428" key="GridCell.Tab.0.bottom/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636419305745" />
+    <state width="1398" height="427" key="GridCell.Tab.0.bottom/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636428276589" />
     <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.25.1440.807/-631.-1415.2560.1415@0.25.1440.807" timestamp="1636210736123" />
-    <state width="1398" height="152" key="GridCell.Tab.0.bottom/0.25.1440.809/1440.-238.1920.1055@0.25.1440.809" timestamp="1636340491133" />
+    <state width="1398" height="340" key="GridCell.Tab.0.bottom/0.25.1440.807/1440.-238.1920.1055@0.25.1440.807" timestamp="1637549689444" />
+    <state width="1398" height="340" key="GridCell.Tab.0.bottom/0.25.1440.809/1440.-238.1920.1055@0.25.1440.809" timestamp="1637549774363" />
     <state width="1398" height="288" key="GridCell.Tab.0.bottom/0.25.1440.811/1440.-238.1920.1055@0.25.1440.811" timestamp="1631501828249" />
-    <state width="1398" height="429" key="GridCell.Tab.0.bottom/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1636426883573" />
-    <state width="2518" height="217" key="GridCell.Tab.0.bottom/0.25.1440.817/-631.-1440.2560.1440@-631.-1440.2560.1440" timestamp="1629002619287" />
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1628477177836" />
-    <state width="1398" height="326" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1630661021413" />
-    <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.25.1440.818/1440.-238.1920.1055@0.25.1440.818" timestamp="1628839427800" />
+    <state width="1398" height="382" key="GridCell.Tab.0.bottom/0.25.1440.813/-631.-1415.2560.1415@0.25.1440.813" timestamp="1636986840241" />
+    <state width="1398" height="340" key="GridCell.Tab.0.bottom/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1637550025556" />
+    <state width="1878" height="464" key="GridCell.Tab.0.bottom/0.25.1440.813/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1638154597285" />
+    <state width="1398" height="161" key="GridCell.Tab.0.bottom/0.25.1440.814/-631.-1415.2560.1415@0.25.1440.814" timestamp="1637394923198" />
+    <state width="1398" height="386" key="GridCell.Tab.0.bottom/0.25.1440.814/1440.-238.1920.1055@0.25.1440.814" timestamp="1637217998020" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.25.1440.814@0.25.1440.814" timestamp="1636784576380" />
+    <state width="1398" height="267" key="GridCell.Tab.0.bottom/0.25.1440.815/1440.-238.1920.1055@0.25.1440.815" timestamp="1637220622577" />
+    <state width="1398" height="382" key="GridCell.Tab.0.bottom/0.25.1440.817/-631.-1415.2560.1415@0.25.1440.817" timestamp="1636811232001" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1636699369914" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1636795995509" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.25.1440.818/1440.-238.1920.1055@0.25.1440.818" timestamp="1636684067945" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1630654599329" />
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.25.1440.819/1440.-238.1920.1055@0.25.1440.819" timestamp="1628841963742" />
-    <state width="1398" height="429" key="GridCell.Tab.0.center" timestamp="1636426883572">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state width="1398" height="278" key="GridCell.Tab.0.bottom/0.25.1440.819/-631.-1415.2560.1415@0.25.1440.819" timestamp="1636799199690" />
+    <state width="1398" height="449" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-238.1920.1055@0.25.1440.875" timestamp="1637563660300" />
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-238.1920.986@0.25.1440.875" timestamp="1636533392684" />
+    <state width="1398" height="376" key="GridCell.Tab.0.center" timestamp="1638262763908">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.0.center/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1634624081908" />
-    <state width="1878" height="277" key="GridCell.Tab.0.center/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1634545990451" />
+    <state width="1398" height="376" key="GridCell.Tab.0.center/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1638262763908" />
+    <state width="1878" height="464" key="GridCell.Tab.0.center/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1638154952134" />
     <state width="1398" height="176" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1635565916161" />
-    <state width="1398" height="428" key="GridCell.Tab.0.center/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636419305745" />
+    <state width="1398" height="427" key="GridCell.Tab.0.center/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636428276588" />
     <state width="1398" height="176" key="GridCell.Tab.0.center/0.25.1440.807/-631.-1415.2560.1415@0.25.1440.807" timestamp="1636210736118" />
-    <state width="1398" height="152" key="GridCell.Tab.0.center/0.25.1440.809/1440.-238.1920.1055@0.25.1440.809" timestamp="1636340491130" />
+    <state width="1398" height="340" key="GridCell.Tab.0.center/0.25.1440.807/1440.-238.1920.1055@0.25.1440.807" timestamp="1637549689443" />
+    <state width="1398" height="340" key="GridCell.Tab.0.center/0.25.1440.809/1440.-238.1920.1055@0.25.1440.809" timestamp="1637549774363" />
     <state width="1398" height="288" key="GridCell.Tab.0.center/0.25.1440.811/1440.-238.1920.1055@0.25.1440.811" timestamp="1631501828248" />
-    <state width="1398" height="429" key="GridCell.Tab.0.center/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1636426883572" />
-    <state width="2518" height="217" key="GridCell.Tab.0.center/0.25.1440.817/-631.-1440.2560.1440@-631.-1440.2560.1440" timestamp="1629002619241" />
-    <state width="1398" height="237" key="GridCell.Tab.0.center/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1628477177835" />
-    <state width="1398" height="326" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1630661021412" />
-    <state width="1398" height="255" key="GridCell.Tab.0.center/0.25.1440.818/1440.-238.1920.1055@0.25.1440.818" timestamp="1628839427799" />
+    <state width="1398" height="382" key="GridCell.Tab.0.center/0.25.1440.813/-631.-1415.2560.1415@0.25.1440.813" timestamp="1636986840240" />
+    <state width="1398" height="340" key="GridCell.Tab.0.center/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1637550025555" />
+    <state width="1878" height="464" key="GridCell.Tab.0.center/0.25.1440.813/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1638154597283" />
+    <state width="1398" height="161" key="GridCell.Tab.0.center/0.25.1440.814/-631.-1415.2560.1415@0.25.1440.814" timestamp="1637394923197" />
+    <state width="1398" height="386" key="GridCell.Tab.0.center/0.25.1440.814/1440.-238.1920.1055@0.25.1440.814" timestamp="1637217998019" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.25.1440.814@0.25.1440.814" timestamp="1636784576378" />
+    <state width="1398" height="267" key="GridCell.Tab.0.center/0.25.1440.815/1440.-238.1920.1055@0.25.1440.815" timestamp="1637220622576" />
+    <state width="1398" height="382" key="GridCell.Tab.0.center/0.25.1440.817/-631.-1415.2560.1415@0.25.1440.817" timestamp="1636811232000" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1636699369913" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1636795995509" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.25.1440.818/1440.-238.1920.1055@0.25.1440.818" timestamp="1636684067944" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1630654599327" />
-    <state width="1398" height="248" key="GridCell.Tab.0.center/0.25.1440.819/1440.-238.1920.1055@0.25.1440.819" timestamp="1628841963740" />
-    <state width="1398" height="429" key="GridCell.Tab.0.left" timestamp="1636426883571">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state width="1398" height="278" key="GridCell.Tab.0.center/0.25.1440.819/-631.-1415.2560.1415@0.25.1440.819" timestamp="1636799199689" />
+    <state width="1398" height="449" key="GridCell.Tab.0.center/0.25.1440.875/1440.-238.1920.1055@0.25.1440.875" timestamp="1637563660297" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.25.1440.875/1440.-238.1920.986@0.25.1440.875" timestamp="1636533392683" />
+    <state width="1398" height="376" key="GridCell.Tab.0.left" timestamp="1638262763907">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.0.left/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1634624081907" />
-    <state width="1878" height="277" key="GridCell.Tab.0.left/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1634545990444" />
+    <state width="1398" height="376" key="GridCell.Tab.0.left/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1638262763907" />
+    <state width="1878" height="464" key="GridCell.Tab.0.left/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1638154952134" />
     <state width="1398" height="176" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1635565916161" />
-    <state width="1398" height="428" key="GridCell.Tab.0.left/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636419305745" />
+    <state width="1398" height="427" key="GridCell.Tab.0.left/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636428276587" />
     <state width="1398" height="176" key="GridCell.Tab.0.left/0.25.1440.807/-631.-1415.2560.1415@0.25.1440.807" timestamp="1636210736100" />
-    <state width="1398" height="152" key="GridCell.Tab.0.left/0.25.1440.809/1440.-238.1920.1055@0.25.1440.809" timestamp="1636340491130" />
+    <state width="1398" height="340" key="GridCell.Tab.0.left/0.25.1440.807/1440.-238.1920.1055@0.25.1440.807" timestamp="1637549689443" />
+    <state width="1398" height="340" key="GridCell.Tab.0.left/0.25.1440.809/1440.-238.1920.1055@0.25.1440.809" timestamp="1637549774363" />
     <state width="1398" height="288" key="GridCell.Tab.0.left/0.25.1440.811/1440.-238.1920.1055@0.25.1440.811" timestamp="1631501828247" />
-    <state width="1398" height="429" key="GridCell.Tab.0.left/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1636426883571" />
-    <state width="2518" height="217" key="GridCell.Tab.0.left/0.25.1440.817/-631.-1440.2560.1440@-631.-1440.2560.1440" timestamp="1629002619241" />
-    <state width="1398" height="237" key="GridCell.Tab.0.left/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1628477177835" />
-    <state width="1398" height="326" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1630661021412" />
-    <state width="1398" height="255" key="GridCell.Tab.0.left/0.25.1440.818/1440.-238.1920.1055@0.25.1440.818" timestamp="1628839427799" />
+    <state width="1398" height="382" key="GridCell.Tab.0.left/0.25.1440.813/-631.-1415.2560.1415@0.25.1440.813" timestamp="1636986840239" />
+    <state width="1398" height="340" key="GridCell.Tab.0.left/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1637550025554" />
+    <state width="1878" height="464" key="GridCell.Tab.0.left/0.25.1440.813/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1638154597282" />
+    <state width="1398" height="161" key="GridCell.Tab.0.left/0.25.1440.814/-631.-1415.2560.1415@0.25.1440.814" timestamp="1637394923196" />
+    <state width="1398" height="386" key="GridCell.Tab.0.left/0.25.1440.814/1440.-238.1920.1055@0.25.1440.814" timestamp="1637217998019" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.25.1440.814@0.25.1440.814" timestamp="1636784576377" />
+    <state width="1398" height="267" key="GridCell.Tab.0.left/0.25.1440.815/1440.-238.1920.1055@0.25.1440.815" timestamp="1637220622576" />
+    <state width="1398" height="382" key="GridCell.Tab.0.left/0.25.1440.817/-631.-1415.2560.1415@0.25.1440.817" timestamp="1636811232000" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1636699369912" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1636795995508" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.25.1440.818/1440.-238.1920.1055@0.25.1440.818" timestamp="1636684067942" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1630654599327" />
-    <state width="1398" height="248" key="GridCell.Tab.0.left/0.25.1440.819/1440.-238.1920.1055@0.25.1440.819" timestamp="1628841963739" />
-    <state width="1398" height="429" key="GridCell.Tab.0.right" timestamp="1636426883572">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state width="1398" height="278" key="GridCell.Tab.0.left/0.25.1440.819/-631.-1415.2560.1415@0.25.1440.819" timestamp="1636799199689" />
+    <state width="1398" height="449" key="GridCell.Tab.0.left/0.25.1440.875/1440.-238.1920.1055@0.25.1440.875" timestamp="1637563660296" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.25.1440.875/1440.-238.1920.986@0.25.1440.875" timestamp="1636533392682" />
+    <state width="1398" height="376" key="GridCell.Tab.0.right" timestamp="1638262763909">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.0.right/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1634624081908" />
-    <state width="1878" height="277" key="GridCell.Tab.0.right/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1634545990452" />
+    <state width="1398" height="376" key="GridCell.Tab.0.right/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1638262763909" />
+    <state width="1878" height="464" key="GridCell.Tab.0.right/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1638154952135" />
     <state width="1398" height="176" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1635565916162" />
-    <state width="1398" height="428" key="GridCell.Tab.0.right/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636419305745" />
+    <state width="1398" height="427" key="GridCell.Tab.0.right/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636428276589" />
     <state width="1398" height="176" key="GridCell.Tab.0.right/0.25.1440.807/-631.-1415.2560.1415@0.25.1440.807" timestamp="1636210736119" />
-    <state width="1398" height="152" key="GridCell.Tab.0.right/0.25.1440.809/1440.-238.1920.1055@0.25.1440.809" timestamp="1636340491132" />
+    <state width="1398" height="340" key="GridCell.Tab.0.right/0.25.1440.807/1440.-238.1920.1055@0.25.1440.807" timestamp="1637549689443" />
+    <state width="1398" height="340" key="GridCell.Tab.0.right/0.25.1440.809/1440.-238.1920.1055@0.25.1440.809" timestamp="1637549774363" />
     <state width="1398" height="288" key="GridCell.Tab.0.right/0.25.1440.811/1440.-238.1920.1055@0.25.1440.811" timestamp="1631501828248" />
-    <state width="1398" height="429" key="GridCell.Tab.0.right/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1636426883572" />
-    <state width="2518" height="217" key="GridCell.Tab.0.right/0.25.1440.817/-631.-1440.2560.1440@-631.-1440.2560.1440" timestamp="1629002619244" />
-    <state width="1398" height="237" key="GridCell.Tab.0.right/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1628477177836" />
-    <state width="1398" height="326" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1630661021413" />
-    <state width="1398" height="255" key="GridCell.Tab.0.right/0.25.1440.818/1440.-238.1920.1055@0.25.1440.818" timestamp="1628839427800" />
+    <state width="1398" height="382" key="GridCell.Tab.0.right/0.25.1440.813/-631.-1415.2560.1415@0.25.1440.813" timestamp="1636986840240" />
+    <state width="1398" height="340" key="GridCell.Tab.0.right/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1637550025555" />
+    <state width="1878" height="464" key="GridCell.Tab.0.right/0.25.1440.813/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1638154597284" />
+    <state width="1398" height="161" key="GridCell.Tab.0.right/0.25.1440.814/-631.-1415.2560.1415@0.25.1440.814" timestamp="1637394923197" />
+    <state width="1398" height="386" key="GridCell.Tab.0.right/0.25.1440.814/1440.-238.1920.1055@0.25.1440.814" timestamp="1637217998019" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.25.1440.814@0.25.1440.814" timestamp="1636784576378" />
+    <state width="1398" height="267" key="GridCell.Tab.0.right/0.25.1440.815/1440.-238.1920.1055@0.25.1440.815" timestamp="1637220622577" />
+    <state width="1398" height="382" key="GridCell.Tab.0.right/0.25.1440.817/-631.-1415.2560.1415@0.25.1440.817" timestamp="1636811232000" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1636699369913" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1636795995509" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.25.1440.818/1440.-238.1920.1055@0.25.1440.818" timestamp="1636684067944" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1630654599328" />
-    <state width="1398" height="248" key="GridCell.Tab.0.right/0.25.1440.819/1440.-238.1920.1055@0.25.1440.819" timestamp="1628841963740" />
+    <state width="1398" height="278" key="GridCell.Tab.0.right/0.25.1440.819/-631.-1415.2560.1415@0.25.1440.819" timestamp="1636799199689" />
+    <state width="1398" height="449" key="GridCell.Tab.0.right/0.25.1440.875/1440.-238.1920.1055@0.25.1440.875" timestamp="1637563660299" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.25.1440.875/1440.-238.1920.986@0.25.1440.875" timestamp="1636533392683" />
     <state width="1878" height="390" key="GridCell.Tab.1.bottom" timestamp="1634293117711">
       <screen x="1440" y="-263" width="1920" height="1080" />
     </state>
@@ -370,10 +386,18 @@
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state x="229" y="64" key="SettingsEditor/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1636359212019" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1637829108026">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1637829108026" />
     <state x="421" y="205" width="597" height="490" key="find.popup" timestamp="1631689394616">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1631689394616" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1638240878112">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1638240878112" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -382,6 +406,16 @@
           <url>file://$PROJECT_DIR$/mydefer/main.go</url>
           <line>5</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/gotest/example/mysync01/index.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/mychannel/03/main.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

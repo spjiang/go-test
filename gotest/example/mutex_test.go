@@ -8,3 +8,7 @@ import (
 func TestMutex_Add(t *testing.T)  {
 	mutex.MutexAdd()
 }
+
+func TestMutex01(t *testing.T)  {
+	
+}

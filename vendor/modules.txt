@@ -1,12 +1,5 @@
 # github.com/BurntSushi/toml v0.3.1
 github.com/BurntSushi/toml
-# github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575
-## explicit
-github.com/cihub/seelog
-github.com/cihub/seelog/archive
-github.com/cihub/seelog/archive/gzip
-github.com/cihub/seelog/archive/tar
-github.com/cihub/seelog/archive/zip
 # github.com/clbanning/mxj v1.8.5-0.20200714211355-ff02cfb8ea28
 github.com/clbanning/mxj
 # github.com/fsnotify/fsnotify v1.4.9
@@ -90,9 +83,6 @@ github.com/gogf/gf/util/grand
 github.com/gogf/gf/util/guid
 github.com/gogf/gf/util/gutil
 github.com/gogf/gf/util/gvalid
-# github.com/goinggo/mapstructure v0.0.0-20140717182941-194205d9b4a9
-## explicit
-github.com/goinggo/mapstructure
 # github.com/gomodule/redigo v2.0.0+incompatible
 github.com/gomodule/redigo/internal
 github.com/gomodule/redigo/redis

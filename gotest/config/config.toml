@@ -1,0 +1,4 @@
+[logger]
+    path  = "./logs"
+    level = "all"
+    stdout= true
