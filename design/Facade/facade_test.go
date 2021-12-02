@@ -1,12 +1,8 @@
-package Abstract_Factory
+package Facade
 
 import "testing"
 
-func TestNewSimpleLunchFactory(t *testing.T) {
-	factory := NewSimpleLunchFactory()
-	food := factory.CreateFood()
-	food.Cook()
-
-	vegetable := factory.CreateVegetable()
-	vegetable.Cook()
+func TestCarFacade_CreateCompleteCar(t *testing.T) {
+	f := NewCarFacade()
+	f.CreateCompleteCar()
 }

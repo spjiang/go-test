@@ -2,6 +2,7 @@ package Factory
 
 import "fmt"
 
+// 工厂模式
 type Restaurant interface {
 	GetFood()
 }

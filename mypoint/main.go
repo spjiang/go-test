@@ -1,1 +1,5 @@
-package mypoint
+package main
+
+func main() {
+
+}
