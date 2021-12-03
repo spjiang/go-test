@@ -8,6 +8,5 @@
             "mode": "debug",
             "program": "${file}"
         }
-        
     ]
 }
