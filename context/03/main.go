@@ -7,12 +7,21 @@ import (
 )
 
 func main() {
-	ctx, cancel := context.WithCancel(context.Background())
-	go test(ctx)
-	time.Sleep(5 * time.Second)
-	cancel()
-	time.Sleep(5 * time.Second)
-	fmt.Println("over")
+	//ctx, cancel := context.WithCancel(context.Background())
+	//go test(ctx)
+	//time.Sleep(5 * time.Second)
+	//cancel()
+	//time.Sleep(5 * time.Second)
+	//fmt.Println("over")
+	var count int = 20
+	var countPoint *int
+	countPoint = &count
+	fmt.Printf("count 变量的地址：%x \n", &count)
+	fmt.Printf("count 变量的地址：%p \n", &count)
+	fmt.Printf("countPoint 变量存储的值内容：%v \n", *countPoint)
+	fmt.Printf("countPoint 变量的地址：%x \n", &countPoint)
+	fmt.Printf("countPoint 变量的地址：%p \n", &countPoint)
+	fmt.Printf("count 变量的地址：%p \n", &count)
 }
 
 func test(ctx context.Context) {
